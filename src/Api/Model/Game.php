@@ -21,4 +21,9 @@ class Game extends AbstractModel
 
         return $users;
     }
+
+    public function toArray(): array
+    {
+        return $this->data;
+    }
 }

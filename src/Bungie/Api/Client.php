@@ -14,7 +14,6 @@ class Client
         $this->apiKey = $apiKey;
     }
 
-
     public function request(RequestInterface $request, array $options = []): ResponseInterface
     {
         $request = $request->withAddedHeader('X-API-Key', $this->apiKey);

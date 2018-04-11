@@ -15,8 +15,6 @@ class SearchService extends AbstractApiService
         $response = $this->client->request($request);
         $data = \GuzzleHttp\json_decode($response->getBody()->getContents(), true);
 
-        var_dump($data);
-
         return new Guardian($data['Response'][0]['membershipId'], $data);
     }
 

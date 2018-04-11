@@ -4,6 +4,7 @@ namespace App\Client;
 
 use App\Client\Adapters\AdapterInterface;
 use Psr\Http\Message\RequestInterface;
+use Psr\Http\Message\ResponseInterface;
 
 class Client
 {
@@ -21,10 +22,10 @@ class Client
     }
 
     /**
-     * @param \Psr\Http\Message\RequestInterface $request
+     * @param RequestInterface $request
      * @param array $options
      *
-     * @return \Psr\Http\Message\ResponseInterface
+     * @return ResponseInterface
      */
     public function request(RequestInterface $request, array $options = [])
     {

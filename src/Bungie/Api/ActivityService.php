@@ -40,7 +40,7 @@ class ActivityService extends AbstractApiService
 
         $data = \GuzzleHttp\json_decode($response->getBody()->getContents(), true);
         $activities = [];
-        if ($data['ErrorCode'] > 1) {
+        if ($data['ErrorCode'] > 1 || !isset($data['Response']['activities'])) {
             return $activities;
         }
 
@@ -65,7 +65,7 @@ class ActivityService extends AbstractApiService
             '2/Account/'.$guardian->getId().'/Character/'.$guardianCharacter->getId().'/Stats/AggregateActivityStats'
         );
         $response = $this->client->request($request);
-        $data = \GuzzleHttp\json_decode($response->getBody()->getContents(), true);
+        $data = \json_decode($response->getBody()->getContents(), true);
         $aggregatedActivities = [];
         foreach ($data['Response']['activities'] as $datum) {
             $aggregatedActivities[$datum['activityHash']] = new ActivityAggregated($datum['activityHash'], $datum);
