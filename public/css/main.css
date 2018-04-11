@@ -1,0 +1,78 @@
+/**
+ * General
+ */
+body {
+    background: #fbfbfc;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+a, a:focus, a:active, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+/**
+ * Navbar
+ */
+.navbar-container {
+    background: #ea4335;
+    border-bottom: 5px solid black;
+    color: white;
+    padding: 25px 0;
+}
+
+ul.navbar-container__list {
+    list-style: none;
+}
+
+ul.navbar-container__list a {
+    color: white !important;
+}
+
+ul.navbar-container__list li {
+    float: left;
+    width: 100px;
+    text-transform: uppercase;
+}
+
+ul.navbar-container__list li:not(:last-child)::after {
+    content: '/';
+    padding-left: 10px;
+    color: black;
+}
+
+/**
+ * Blocks
+ */
+.white-container {
+    background: white;
+    border: 1px solid #f1f1f3;
+}
+.title {
+    color: #ea4335;
+}
+
+.icon-sport-football {
+    background: url("../img/svg/007-football.svg");
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+}
+.icon-sport-basketball {
+    background: url("../img/svg/006-basketball.svg");
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+}
+.icon-sport-hockey {
+    background: url("../img/svg/008-puck.svg");
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+}
+.icon-sport-tennis {
+    background: url("../img/svg/009-tennis.svg");
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+}

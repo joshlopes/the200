@@ -1,0 +1,120 @@
+.header-container {
+    margin-top: 40px;
+    padding: 15px 0;
+}
+.header-container h1 {
+    text-transform: uppercase;
+}
+
+.weekday-container__day {
+    border: 1px solid #f1f1f3;
+    text-align: center;
+    background-color: #F9F9F9;
+}
+
+.bets-container {
+    padding: 20px;
+}
+
+.bets-container h2 {
+    margin: 0;
+}
+
+/**
+ * Sections
+ */
+.bet-sport-section table {
+    margin-top: 30px;
+}
+.bet-sport-section th {
+    text-align: center;
+}
+
+/* FOOTBALL */
+.section-football h2,
+.section-football .section-percentage {
+    color: #34a853;
+}
+
+.section-football th {
+    background-color: #34a853;
+    color: white;
+}
+
+/* BASKETBALL */
+.section-basketball h2,
+.section-basketball .section-percentage {
+    color: #ea9735;
+}
+
+.section-basketball th {
+    background-color: #ea9735;
+    color: white;
+}
+
+/* HOCKEY */
+.section-hockey h2,
+.section-hockey .section-percentage {
+    color: #4285f4;;
+}
+
+.section-hockey th {
+    background-color: #4285f4;;
+    color: white;
+}
+
+/* TENNIS */
+.section-tennis h2,
+.section-tennis .section-percentage {
+    color: #fbbc05;;
+}
+
+.section-tennis th {
+    background-color: #fbbc05;;
+    color: white;
+}
+
+/**
+ * Side section holder
+ */
+
+.side-section-list {
+    width: 80%;
+    margin-left: 15px;
+}
+
+.side-section-list .site-sport-section {
+    padding: 10px 0;
+}
+
+.side-section-list .site-sport-section:hover {
+    cursor: pointer;
+}
+
+.side-section-list__icon-placeholder {
+    padding-top: 5px;
+}
+
+/** FOOTBALL **/
+.side-section-list .side-section-football:hover {
+    background-color: #34a853;
+    color: white;
+}
+
+/** BASKETBALL **/
+.side-section-list .side-section-basketball:hover {
+    background-color: #ea9735;
+    color: white;
+}
+
+/** HOCKEY **/
+.side-section-list .side-section-hockey:hover {
+    background-color: #4285f4;
+    color: white;
+}
+
+/** TENNIS **/
+.side-section-list .side-section-tennis:hover {
+    background-color: #fbbc05;
+    color: white;
+}

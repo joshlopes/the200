@@ -1,0 +1,24 @@
+services:
+    _defaults:
+        public: true
+
+    # If you need to access services in a test, create an alias
+    # and then fetch that alias from the container. As a convention,
+    # aliases are prefixed with test. For example:
+    #
+    # test.App\Service\MyService: '@App\Service\MyService'
+
+    test.request_manager:
+        alias: App\Api\RequestManager
+
+    test.bungie.search_service:
+        alias: App\Bungie\Api\SearchService
+
+    test.bungie.profile_service:
+        alias: App\Bungie\Api\ProfileService
+
+    test.bungie.activity_service:
+        alias: App\Bungie\Api\ActivityService
+
+    test.bungie_manager:
+        alias: App\Bungie\BungieManager

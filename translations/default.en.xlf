@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+    <file source-language="en" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="1">
+                <source>Free tips</source>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Prestige</source>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Strategy</source>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>About us</source>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Nostradamus bets</source>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Free tips</source>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>football</source>
+                <target>Soccer</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Perentage</source>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Odds</source>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Hour</source>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Match</source>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Date</source>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>%%numberGames%% matches</source>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Round %%round%%</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
